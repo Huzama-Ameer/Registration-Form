@@ -21,6 +21,21 @@
           <label for="business-account"><input type="radio" name="account-type" id="business-account">Business Account</label>
           <label for="terms-and-condition"><input type="checkbox" name="terms-and-condition" id="terms-and-condition"> I accept the <a href="https://www.freecodecamp.org/news/terms-of-service/">terms and conditions</a> </label>
       </fieldset>
+      <fieldset>
+        <label for="profile-picture">Upload a profile picture: <input type="file" name="profile-picture" id="profile-picture"></label>
+        <label for="age">Input your age (years): <input type="number" name="age" id="age" min="14" max="40"></label>
+        <label for="refferrer">How did you hear about us?
+            <select name="refferrer" id="refferrer">
+                <option value="">(select one)</option>
+                <option value="1">Friends, Family</option>
+                <option value="2">Social Media</option>
+                <option value="3">Other</option>
+            </select>
+        </label>
+        <label for="bio">Provide a bio:
+            <textarea name="bio" id="bio" cols="30" rows="4" placeholder="I like to......."></textarea>
+        </label>
+      </fieldset>
     </form>
 </body>
 </html>
